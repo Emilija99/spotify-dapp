@@ -1,0 +1,36 @@
+@import "../../scss/variables.scss";
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 0.2rem;
+
+  > .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0;
+
+    > .title,
+    > .title > a.title-link {
+      font-size: 1.35rem;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    > .aside-link {
+      font-weight: bold;
+      font-size: 0.8rem;
+      letter-spacing: 1px;
+      color: #9b9b9b;
+    }
+
+    .title-link:hover,
+    .aside-link:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}

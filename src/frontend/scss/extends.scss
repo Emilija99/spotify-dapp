@@ -1,0 +1,35 @@
+%flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  %custom-scrollbar {
+    &::-webkit-scrollbar-track {
+      background-color: #121212 !important;
+    }
+    &::-webkit-scrollbar {
+      width: 12px !important;
+      background: #040404 !important;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: #505050 !important;
+    }
+  }
+  
+  %base-transition {
+    transition: all 200ms ease;
+  }
+  
+  %fade-in-animation {
+    animation: fadeIn 300ms ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

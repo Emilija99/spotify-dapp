@@ -1,0 +1,31 @@
+.forma
+{
+    margin-left:30px;
+    padding:5rem;
+    background: transparent;
+    margin: auto;
+    max-width: 450px;
+    border:1px solid white;
+    border-radius:10%;
+    color:white;
+    margin-top: 50px;
+    text-align: center
+  };
+  h3{
+    text-align: center;
+  }
+  .row{
+   margin-bottom: 15px;
+  }
+  input{
+    color:black;
+  }
+  .subButton{
+    color:white !important;
+    background-color: #1DB954 !important;
+    transition: transfer .2s !important;
+    border-color:#30bb61 !important;
+    &:hover{
+      transform: scale(1.04) !important;
+    }
+  }

@@ -1,0 +1,71 @@
+{
+  "name": "starter_kit",
+  "version": "0.2.0",
+  "private": false,
+  "dependencies": {
+    "@ant-design/icons": "^5.1.4",
+    "@babel/preset-react": "^7.16.7",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "@openzeppelin/contracts": "^4.5.0",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.3",
+    "@testing-library/user-event": "^13.5.0",
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "antd": "^5.6.4",
+    "bootstrap": "^5.1.3",
+    "chai": "^4.3.6",
+    "dotenv": "^16.3.1",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.8.4",
+    "identicon.js": "^2.3.3",
+    "memfs": "^4.2.1",
+    "nft.storage": "^7.1.0",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-avatar": "^5.0.3",
+    "react-bootstrap": "^2.1.2",
+    "react-data-table-component": "^7.5.4",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.14.1",
+    "react-scripts": "5.0.0",
+    "reactjs-popup": "^2.0.5",
+    "sass": "^1.66.1",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.4",
+    "solc": "^0.8.4",
+    "styled-components": "^6.0.8",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "deploy": "npx hardhat run src/backend/scripts/deploy.js --network localhost",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11"
+  }
+}
